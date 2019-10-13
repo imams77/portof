@@ -1,0 +1,65 @@
+{
+  "name": "portofid",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.3.1",
+    "fetch-instagram": "^1.0.0-alpha.3",
+    "google-maps-react": "^2.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.2",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-countdown-now": "^2.1.1",
+    "react-dom": "^16.8.6",
+    "react-fullpage": "^0.1.19",
+    "react-helmet": "^5.2.1",
+    "react-infinite-scroll-component": "^4.5.3",
+    "react-input-range": "^1.3.0",
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-modal-video": "^1.2.2",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-redux": "^7.1.0",
+    "react-redux-multilingual": "^2.0.2",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.12",
+    "react-slick": "^0.24.0",
+    "react-sticky-box": "^0.8.0",
+    "react-stripe-checkout": "^2.6.3",
+    "react-tabs": "^3.0.0",
+    "react-toastify": "^5.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "simple-react-validator": "^1.2.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
+  }
+}

@@ -1,0 +1,305 @@
+/*--------- My account page ------------*/
+
+.login-register-wrapper {
+    .login-register-tab-list {
+        text-align: center;
+        display: block;
+        margin: 0 0 32px;
+        a, li {
+            color: $light-grey;
+            font-size: 24px;
+            line-height: 1;
+            display: inline-block;
+            text-transform: capitalize;
+            margin: 0 5px;
+            &.active, &.react-tabs__tab--selected {
+                color: #343538;
+                font-weight: 700;
+            }
+
+            &:after{
+                display: none;
+            }
+        }
+    }
+    .login-form-container {
+        .login-register-form {
+            form {
+                .sin-login-register {
+                    margin-bottom: 14px;
+                    label {
+                        color: #343538;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        margin: 0 0 5px;
+                        span {
+                            color: red;
+                        }
+                    }
+                    input {
+                        border: 1px solid #e8e8e8;
+                        height: 60px;
+                        background-color: transparent;
+                        &:focus {
+                            border: 1px solid #343538;
+                        }
+                    }
+                }
+                button {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    background-color: #343538;
+                    color: #fff;
+                    border: none;
+                    width: 100%;
+                    padding: 17px 10px 19px;
+                    &:hover {
+                        background-color: $theme-color;
+                    }
+                }
+                .login-toggle-btn {
+                    margin-top: 14px;
+                    input {
+                        height: 15px;
+                        margin: 0;
+                        position: relative;
+                        top: 3px;
+                        width: 17px;
+                    }
+                    label {
+                        font-size: 12px;
+                        color: $light-grey;
+                        margin: 0;
+                    }
+                    a {
+                        font-size: 12px;
+                        color: $light-grey;
+                        float: right;
+                        &:hover {
+                            color: $theme-color;
+                        }
+                    }
+                }
+            }
+        }
+        .login-social {
+            margin: 54px 0 54px;
+            @media #{$xs-layout} {
+                margin: 20px 0 20px;
+            }
+            span {
+                font-size: 12px;
+                color: #343538;
+                text-transform: uppercase;
+                margin: 0 0 13px;
+                display: block;
+            }
+            ul {
+                li {
+                    display: inline-block;
+                    margin: 0 3px 0 0;
+                    a {
+                        background-color: #f5f5f5;
+                        color: $light-grey;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        display: block;
+                        float: left;
+                        font-size: 11px;
+                        padding: 20px;
+                        padding: 23px 35px 24px;
+                        line-height: 1;
+                        @media #{$xs-layout} {
+                            padding: 17px 15px 16px;
+                        }
+                        &:hover {
+                            background-color: #4fb3ec;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .create-account {
+            span {
+                font-size: 12px;
+                color: #343538;
+                text-transform: uppercase;
+                display: block;
+                margin: 0 0 9px;
+            }
+            a {
+                display: block;
+                text-align: center;
+                text-transform: uppercase;
+                padding: 18px 20px;
+                font-weight: 700;
+                border: 2px solid #e4e4e4;
+                color: $light-grey;
+                &:hover {
+                    background-color: #343538;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.login-register-area {
+    @media #{$xs-layout} {
+        &.pb-70 {
+            padding-bottom: 50px;
+        }
+    }
+}
+
+
+
+
+.myaccount-tab-menu {
+    a, li {
+        font-weight: 400;
+        font-size: 13px;
+        display: inline-block;
+        padding: 7px 10px;
+        text-transform: capitalize;
+        float: left;
+        margin: 0 5px 0 0;
+        &:last-child {
+            margin: 0 0px 0 0;
+        }
+        @media #{$xs-layout} {
+            padding: 4px 6px;
+            margin: 0 5px 5px 0;
+        }
+        &:hover,
+        &.active, &.react-tabs__tab--selected {
+            background-color: $theme-color;
+            border-color: $theme-color;
+            color: $white;
+        }
+
+        &:after{
+            display: none;
+        }
+    }
+}
+
+#myaccountContent {
+    margin-top: 30px;
+    @media #{$md-layout} {
+        margin-bottom: 50px;
+    }
+    @media #{$xs-layout} {
+        margin-bottom: 30px;
+    }
+}
+
+.myaccount-content {
+    border: 1px solid #eeeeee;
+    padding: 30px;
+    @media #{$xs-layout} {
+        padding: 20px 15px;
+    }
+    form {
+        margin-top: -20px;
+    }
+    h3 {
+        font-size: 20px;
+        border-bottom: 1px dashed #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+    .welcome {
+        a {
+            &:hover {
+                color: $theme-color;
+            }
+        }
+        strong {
+            font-weight: 600;
+            color: $theme-color;
+        }
+    }
+    fieldset {
+        margin-top: 20px;
+        & legend {
+            font-size: 16px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+    }
+    .account-details-form {
+        margin-top: 50px;
+        .single-input-item {
+            margin-bottom: 20px;
+            label {
+                font-size: 14px;
+                text-transform: capitalize;
+                display: block;
+                margin: 0 0 5px;
+            }
+            input {
+                border: 1px solid #e8e8e8;
+                height: 50px;
+                background-color: transparent;
+                padding: 2px 20px;
+                color: #1f2226;
+                font-size: 13px;
+                &:focus {
+                    border: 1px solid #343538;
+                }
+            }
+            button {
+                border: none;
+                background-color: $theme-color;
+                text-transform: uppercase;
+                font-weight: 600;
+                padding: 9px 25px;
+                color: #fff;
+                font-size: 13px;
+                &:hover {
+                    background-color: #1f2226;
+                }
+            }
+        }
+    }
+}
+
+.myaccount-table {
+    white-space: nowrap;
+    font-size: 14px;
+    table,
+    .table {
+        th {
+            padding: 10px;
+            font-weight: 600;
+            background-color: #f8f8f8;
+            border-color: #ccc;
+            border-bottom: 0;
+            color: #1f2226;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: middle;
+            border-color: #ccc;
+            button{
+                background: none;
+                border: none;
+            }
+        }
+    }
+}
+
+.saved-message {
+    background-color: #fff;
+    border-top: 3px solid $theme-color;
+    font-size: 14px;
+    padding: 20px 0;
+    color: #333;
+}

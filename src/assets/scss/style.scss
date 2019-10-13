@@ -1,0 +1,46 @@
+/* Third party stylesheets */
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~slick-carousel/slick/slick.scss';
+@import '~react-toastify/scss/main.scss';
+@import '~animate.css/animate.min.css';
+@import '~react-modal-video/scss/modal-video.scss';
+@import '~react-input-range/src/scss/index.scss';
+@import '../css/icons.min.css';
+
+/* custom styles */
+
+@import 'variables';
+@import 'common';
+@import 'header';
+@import 'hero-slider';
+@import 'slider';
+@import 'banner';
+@import 'section';
+@import 'product';
+@import 'feature';
+@import 'footer';
+@import 'instagram';
+@import 'deal';
+@import 'blog';
+@import 'subscribe';
+@import 'product-details';
+@import 'testimonial';
+@import 'brand-logo';
+@import 'contact';
+@import 'video';
+@import 'notification';
+@import 'breadcrumb';
+@import 'shop-page';
+@import 'cart';
+@import 'my-account';
+@import 'faq';
+@import 'checkout';
+@import 'compare';
+@import 'about-us';
+@import 'service';
+@import 'coming';
+@import 'error';
+@import 'portfolio';
+@import 'rtl';
+@import 'category-bar';
+@import 'custom';

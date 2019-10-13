@@ -1,0 +1,48 @@
+// Font Family
+$montserrat: 'Montserrat', sans-serif;
+$playfairdisplay: 'Playfair Display', serif;
+$meddon: 'Meddon', cursive;
+$nothingyoucoulddo: 'Nothing You Could Do', cursive;
+$robotocondensed: 'Roboto Condensed', sans-serif;
+
+
+// text Colors ---------------
+
+$white: #fcfcfc;
+$black: #000000;
+$light-grey: #edf2f4;
+$light-blue: #e0f3f9;
+$red: #e54b4b;
+$dark-blue: #183959;
+$normal-blue: #276299;
+
+
+// bg Colors ---------------
+
+$bg-white: $white;
+$bg-black: #000000;
+$bg-light: $light-grey;
+$bg-dark: $dark-blue;
+
+// Theme Color
+$theme-color: $normal-blue;
+
+
+
+// Responsive Variables 
+$xx-layout : 'only screen and (min-width: 1366px) and (max-width: 1600px)';
+$xl-layout : 'only screen and (min-width: 1200px) and (max-width: 1365px)';
+$lg-layout : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs-layout:'only screen and (max-width: 767px)';
+$sm-layout: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$small-mobile: 'only screen and (max-width: 575px)';
+$extra-small-mobile: 'only screen and (max-width: 479px)';
+
+
+
+
+
+
+
+

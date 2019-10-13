@@ -1,0 +1,229 @@
+/*------- Footer style -------*/
+
+.footer-custom-col {
+	flex: 0 0 16.66667%;
+	max-width: 16.66667%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    @media #{$md-layout} {
+        flex: 0 0 33.333%;
+	    max-width: 33.333%;
+    }
+    @media #{$xs-layout} {
+        flex: 0 0 100%;
+	    max-width: 100%;
+    }
+    @media #{$sm-layout} {
+        flex: 0 0 33.333%;
+	    max-width: 33.333%;
+    }
+}
+
+.footer-area {
+    background-color: $normal-blue;
+}
+
+
+.footer-widget {
+    .footer-logo {
+        width: 150px;
+    }
+    &.footer-about {
+        p {
+            font-size: 12px;
+            font-family: $montserrat;
+            width: 90%;
+            margin: 15px 0 14px;
+            color: $light-grey;
+        }
+        .footer-social {
+            display: flex;
+            a {
+                font-size: 12px;
+                margin: 0 30px 0 0;
+                color: $white;
+                &:last-child {
+                    margin: 0 0px 0 0;
+                }
+                &:hover {
+                    color: $light-grey;
+                }
+            }
+        }
+    }
+    .footer-title {
+        h3 {
+            font-weight: 700;
+            font-size: 16px;
+            margin: 0 0 30px;
+            color: $light-grey;
+            line-height: 1;
+            @media #{$sm-layout} {
+                margin: 0 0 15px;
+            }
+            @media #{$xs-layout} {
+                margin: 0 0 18px;
+            }
+        }
+    }
+    .footer-list {
+        ul {
+            li {
+                margin-bottom: 20px;
+                @media #{$sm-layout} {
+                    margin: 0 0 10px;
+                }
+                @media #{$xs-layout} {
+                    margin: 0 0 8px;
+                }
+                a {
+                    color: rgba($white, .6);
+                    font-size: 12px;
+                    &:hover {
+                        text-decoration: underline;
+                        color: red;
+                    }
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    &.footer-white {
+        .footer-title {
+            h3 {
+                color: #fff;
+            }
+        }
+    }
+    &.footer-map {
+        position: relative;
+        height: 250px;
+        overflow: hidden;
+        #footer-map, .map-container  {
+            height: 221px;
+        }
+    }
+    &.copyright-2{
+        p {
+            font-size: 10px;
+            color: #343538;
+            font-family: "Montserrat", sans-serif;
+            margin: 0;
+            text-transform: uppercase;
+            a {
+                color: #343538;
+                &:hover {
+                    color: $red;
+                }
+            }
+            @media #{$xs-layout} {
+                text-align: center;
+            }
+        }
+    }
+    &.footer-social-2 {
+        display: flex;
+        justify-content: center;
+        a {
+            font-size: 10px;
+            margin: 0 15px 0 15px;
+            color: #343538;
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+    &.footer-address {
+        p {
+            font-size: 10px;
+            color: #343538;
+            font-family: "Montserrat", sans-serif;
+            margin: 0;
+            text-transform: uppercase; 
+            text-align: right;
+            @media #{$xs-layout} {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.copyright {
+    p {
+        font-size: 12px;
+        color: $light-grey;
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        text-transform: uppercase;
+        a {
+            color: $light-grey;
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    &.pt-40 {
+        @media #{$xs-layout} {
+            padding-top: 15px;
+        }
+    }
+}
+
+.home-9-footer {
+    .footer-custom-col {
+        @media #{$lg-layout} {
+            flex: 0 0 33.333%;
+            max-width: 33.333%;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
